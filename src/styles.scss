@@ -20,8 +20,65 @@ h1, h2, h3, h4, h5, h6, button,
   color: white;
 }
 
+.text-green {
+  color: #9BC54F;
+}
+
+.bg-green {
+  background-color: #9BC54F;
+}
+
+.text-purple {
+  color: #99799C;
+}
+
+.bg-purple {
+  background-color: #99799C;
+}
+
 .btn {
   border-radius: 0;
   padding: 0.15rem 1rem;
   font-size: 14px;
+}
+
+.btn-secondary {
+  background-color: #9BC54F;
+  border: none;
+
+  &:hover, &:active {
+    background-color: #9BC54F;
+    border: none;
+  }
+}
+
+.countdown {
+  font-weight: 100;
+  margin-bottom: 3rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+
+  .date {
+    font-size: 3rem;
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+}
+
+section#reefic {
+  color: white;
+  background-color: #99799C;
+  padding: 3rem 0;
+
+  h2 {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  h1 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
 }

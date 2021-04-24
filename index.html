@@ -11,62 +11,77 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <header class="mt-3">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">
-          <img src="dist/images/logo-white.png" alt="reefic logo" height="40">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Token Sale</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <button class="btn btn-outline-light" type="submit">
-                Whitepaper <img src="dist/images/icon-download.svg" alt="icon download" width="20">
-              </button>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign In</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">EN &#9662;</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
+  <main>
     <section id="reefic" class="text-center">
-      <h2>HAVE A REEFIC DAY!</h2>
-
-      <p>Reefic Protocol is a decentralised platform where customers can exchange reward points across multiple loyalty programs and selected cryptocurrencies.</p>
-
-      <h1>OPEN FOR TOKEN SALE IN</h1>
-
-      <p>&lt;counter&gt;</p>
-
-      <p>
-        <button type="button" class="btn btn-primary mr-2">WHITELIST</button>
-        <button type="button" class="btn btn-primary">BOUNTY</button>
-      </p>
+      <div class="container">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+              <img src="dist/images/logo-white.png" alt="reefic logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Product</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Token Sale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-outline-light" type="submit">
+                    Whitepaper <img src="dist/images/icon-download.svg" alt="icon download" width="20">
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">EN &#9662;</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+  
+        <h2>HAVE A REEFIC DAY!</h2>
+  
+        <p>Reefic Protocol is a decentralised platform where customers can exchange reward points across multiple loyalty programs and selected cryptocurrencies.</p>
+  
+        <h1>OPEN FOR TOKEN SALE IN</h1>
+  
+        <div id="demo" class="text-center countdown">
+          <div class="row m-0 date">
+              <div class="col-3 days"></div>
+              <div class="col-3 hours"></div>
+              <div class="col-3 minutes"></div>
+              <div class="col-3 seconds"></div>
+          </div>
+          <div class="row m-0 label text-uppercase">
+              <div class="col-3">days</div>
+              <div class="col-3">hours</div>
+              <div class="col-3">minutes</div>
+              <div class="col-3">seconds</div>
+          </div>
+        </div>
+  
+        <p>
+          <button type="button" class="btn btn-secondary text-purple mr-2">WHITELIST</button>
+          <button type="button" class="btn btn-secondary text-purple">BOUNTY</button>
+        </p>
+      </div>
     </section>
 
     <section id="video" class="text-center">
@@ -694,5 +709,6 @@
 
   <script src="dist/js/jquery.min.js"></script>
   <script src="dist/js/bootstrap.bundle.min.js"></script>
+  <script src="dist/js/countdown.js"></script>
 </body>
 </html>
