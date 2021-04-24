@@ -1,0 +1,24 @@
+{
+  "name": "proj-reefic",
+  "version": "0.1.0",
+  "description": "Reefic Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davinaleong/proj-reefic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davinaleong/proj-reefic/issues"
+  },
+  "homepage": "https://github.com/davinaleong/proj-reefic#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0"
+  }
+}
