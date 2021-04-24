@@ -10839,12 +10839,27 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
   color: black;
-  background: white;
+  background: grey;
 }
 
 h1, h2, h3, h4, h5, h6, button,
 .h1, .h2, .h3, .h4, .h5, .h6, .button {
   text-transform: uppercase;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 0.15rem 1rem;
+  font-size: 14px;
 }
 /*# sourceMappingURL=styles.css.map */
