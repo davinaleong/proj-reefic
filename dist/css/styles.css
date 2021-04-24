@@ -10873,6 +10873,14 @@ h1, h2, h3, h4, h5, h6, button,
   background-color: #99799C;
 }
 
+.text-dark-purple {
+  color: #591F5F;
+}
+
+.bg-dark-purple {
+  background-color: #591F5F;
+}
+
 .btn {
   border-radius: 0;
   padding: 0.15rem 1rem;
@@ -10907,7 +10915,7 @@ h1, h2, h3, h4, h5, h6, button,
 section#reefic {
   color: white;
   background-color: #99799C;
-  padding: 3rem 0;
+  padding: 0 3rem 5rem 3rem;
 }
 
 section#reefic h2 {
