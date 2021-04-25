@@ -11145,4 +11145,34 @@ h1, h2, h3, h4, h5, h6, button,
     margin-right: 7rem;
   }
 }
+
+#roadmap {
+  background-image: url("../images/bg-roadmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  margin-top: -6rem;
+  padding-top: 8rem;
+}
+
+#roadmap h3 {
+  margin-bottom: 3rem;
+}
+
+#roadmap .scrollable {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+#roadmap .scrollable .row {
+  background: #eee;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+#roadmap .scrollable .row:first-child {
+  background: #9BC54F;
+}
 /*# sourceMappingURL=styles.css.map */
