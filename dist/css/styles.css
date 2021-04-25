@@ -11073,6 +11073,10 @@ h1, h2, h3, h4, h5, h6, button,
   color: #666;
 }
 
+#sales .table-responsive {
+  margin-bottom: 3rem;
+}
+
 #sales .table {
   color: #666;
   font-size: 0.9rem;
@@ -11092,5 +11096,39 @@ h1, h2, h3, h4, h5, h6, button,
 
 #sales .table-striped tbody tr:nth-of-type(even) {
   background-color: white;
+}
+
+#sales .row {
+  margin-bottom: 2rem;
+}
+
+#sales .card {
+  border-color: #591F5F;
+}
+
+#sales .card-header {
+  color: white;
+  background-color: #591F5F;
+  border-color: #591F5F;
+}
+
+#sales .card-title {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+#sales .card-body {
+  color: white;
+  background-color: #591F5F;
+  padding: 0 0 0.5rem 0;
+}
+
+#sales .card-section {
+  background-color: #8D4893;
+  padding: 0.5rem;
+}
+
+#sales .card-section:first-child {
+  border-bottom: thin solid #591F5F;
 }
 /*# sourceMappingURL=styles.css.map */

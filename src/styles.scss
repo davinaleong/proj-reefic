@@ -240,6 +240,10 @@ h1, h2, h3, h4, h5, h6, button,
 
   color: #666;
 
+  .table-responsive {
+    margin-bottom: 3rem;
+  }
+
   .table {
     color: #666;
     font-size: 0.9rem;
@@ -259,5 +263,39 @@ h1, h2, h3, h4, h5, h6, button,
 
   .table-striped tbody tr:nth-of-type(even) {
     background-color: white;
+  }
+
+  .row {
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    border-color: #591F5F;
+  }
+
+  .card-header {
+    color: white;
+    background-color: #591F5F;
+    border-color: #591F5F;
+  }
+
+  .card-title {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-weight: 200;
+  }
+
+  .card-body {
+    color: white;
+    background-color: #591F5F;
+    padding: 0 0 0.5rem 0;
+  }
+
+  .card-section {
+    background-color: #8D4893;
+    padding: 0.5rem;
+
+    &:first-child {
+      border-bottom: thin solid #591F5F;
+    }
   }
 }
