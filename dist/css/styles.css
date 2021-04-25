@@ -10870,6 +10870,10 @@ body {
   font-weight: 500;
 }
 
+.text-white {
+  color: white;
+}
+
 .text-green {
   color: #9BC54F;
 }
