@@ -10841,7 +10841,7 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
   color: black;
-  background: grey;
+  background: white;
 }
 
 h1, h2, h3, h4, h5, h6, button,
@@ -10874,7 +10874,7 @@ h1, h2, h3, h4, h5, h6, button,
   background-color: #99799C;
 }
 
-.text-dark-purple {
+.text-dark-purple, #press h3 {
   color: #591F5F;
 }
 
@@ -10973,5 +10973,14 @@ h1, h2, h3, h4, h5, h6, button,
 
 #video h3, #video iframe, #video .social {
   margin-bottom: 1rem;
+}
+
+#press {
+  padding-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+#press h3 {
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */
