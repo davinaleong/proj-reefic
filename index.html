@@ -717,7 +717,26 @@
       <div class="container">
         <h3 class="text-dark-purple">PARTNERSHIPS</h3>
 
-        <p>&lt;partnership carousle&gt;</p>
+        <div id="partnerships-carousel" class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="dist/images/logo-1.png" alt="logo 1">
+          </div>
+          <div class="item">
+            <img src="dist/images/logo-2.png" alt="logo 2">
+          </div>
+          <div class="item">
+            <img src="dist/images/logo-3.png" alt="logo 3">
+          </div>
+          <div class="item">
+            <img src="dist/images/logo-4.png" alt="logo 4">
+          </div>
+          <div class="item">
+            <img src="dist/images/logo-5.png" alt="logo 5">
+          </div>
+          <div class="item">
+            <img src="dist/images/logo-6.png" alt="logo 6">
+          </div>
+        </div>
       </div>
     </section>
 
@@ -815,6 +834,19 @@
           },
           768: {
             items: 3
+          }
+        }
+      });
+
+      $("#partnerships-carousel").owlCarousel({
+        loop: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 3
+          },
+          768: {
+            items: 5
           }
         }
       });
