@@ -10992,8 +10992,9 @@ h1, h2, h3, h4, h5, h6, button,
 }
 
 .slider-item .slider-item-inner {
+  padding: 0.5rem;
   background: white;
   border-radius: 0.25rem;
-  min-height: 350px;
+  min-height: 300px;
 }
 /*# sourceMappingURL=styles.css.map */
