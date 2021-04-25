@@ -357,6 +357,7 @@ h1, h2, h3, h4, h5, h6, button,
   background-image: url('../images/bg-cast.png');
   background-repeat: no-repeat;
   background-position: center bottom;
+
   h3, h4 {
     margin-bottom: 2rem;
   }
@@ -372,5 +373,15 @@ h1, h2, h3, h4, h5, h6, button,
 }
 
 #action {
-  background: black;
+  background-image: url('../images/bg-cta.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  h2, .register-now {
+    margin-bottom: 1rem;
+  }
 }
