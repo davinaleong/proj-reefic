@@ -10886,6 +10886,7 @@ h1, h2, h3, h4, h5, h6, button,
   border-radius: 0;
   padding: 0.3rem 1rem;
   font-size: 14px;
+  font-weight: 200;
 }
 
 .btn-primary {
@@ -10944,9 +10945,9 @@ h1, h2, h3, h4, h5, h6, button,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 600px;
-  margin-top: -5rem;
-  padding-top: 5rem;
+  height: 700px;
+  margin-top: -6rem;
+  padding-top: 7rem;
 }
 
 #video h3, #video iframe, #video .social {
