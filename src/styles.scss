@@ -195,15 +195,30 @@ h1, h2, h3, h4, h5, h6, button,
   background-size: cover;
   background-position: center;
   height: 800px;
+  font-family: Montserrat, Verdana, sans-serif;
+  font-weight: 500;
 
   margin-top: -6rem;
   padding-top: 12rem;
 
   a {
     color: #666;
+    font-weight: 200;
 
     &:hover {
       color: #666;
     }
+  }
+}
+
+.img-container {
+  span {
+    font-weight: 500;
+    color: white;
+    background-color: #7F3F97;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
   }
 }
