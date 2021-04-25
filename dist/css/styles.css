@@ -11193,4 +11193,17 @@ h1, h2, h3, h4, h5, h6, button,
 #cast h3, #cast h4 {
   margin-bottom: 2rem;
 }
+
+#partnerships {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#partnerships h3 {
+  margin-bottom: 1rem;
+}
+
+#action {
+  background: black;
+}
 /*# sourceMappingURL=styles.css.map */
