@@ -11056,4 +11056,9 @@ h1, h2, h3, h4, h5, h6, button,
   top: 0.5rem;
   right: 1rem;
 }
+
+#benefits {
+  padding-top: 5rem;
+  margin-bottom: 10rem;
+}
 /*# sourceMappingURL=styles.css.map */
