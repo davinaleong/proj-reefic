@@ -11068,8 +11068,10 @@ h1, h2, h3, h4, h5, h6, button,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: liner-gradient(white, #ededed);
   margin-top: -6rem;
   padding-top: 8rem;
+  padding-bottom: 10rem;
   color: #666;
 }
 
@@ -11135,5 +11137,12 @@ h1, h2, h3, h4, h5, h6, button,
 #sales .opportunity {
   margin-top: 5rem;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .container-inner {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
