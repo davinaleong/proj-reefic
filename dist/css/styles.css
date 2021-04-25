@@ -10874,6 +10874,10 @@ body {
   color: white;
 }
 
+.text-gray {
+  color: #666;
+}
+
 .text-green {
   color: #9BC54F;
 }
@@ -11156,7 +11160,7 @@ h1, h2, h3, h4, h5, h6, button,
   background-size: cover;
   background-position: center;
   height: 700px;
-  margin-top: -6rem;
+  margin-top: -8rem;
   padding-top: 8rem;
 }
 
@@ -11178,5 +11182,9 @@ h1, h2, h3, h4, h5, h6, button,
 
 #roadmap .scrollable .row:first-child {
   background: #9BC54F;
+}
+
+#cast h3, #cast h4 {
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+.text-gray {
+  color: #666;
+}
+
 .text-green {
   color: #9BC54F;
 }
@@ -325,7 +329,7 @@ h1, h2, h3, h4, h5, h6, button,
   background-position: center;
 
   height: 700px;
-  margin-top: -6rem;
+  margin-top: -8rem;
   padding-top: 8rem;
 
   h3 {
@@ -346,5 +350,11 @@ h1, h2, h3, h4, h5, h6, button,
         background: #9BC54F;
       }
     }
+  }
+}
+
+#cast {
+  h3, h4 {
+    margin-bottom: 2rem;
   }
 }
