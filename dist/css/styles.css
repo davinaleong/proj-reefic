@@ -10984,17 +10984,22 @@ h1, h2, h3, h4, h5, h6, button,
   margin-bottom: 3rem;
 }
 
-.slider-item {
+#press #press-carousel {
+  margin-bottom: 3rem;
+}
+
+#press .slider-item {
   padding: 1px;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ccc));
   background: linear-gradient(white, #ccc);
   border-radius: 0.25rem;
 }
 
-.slider-item .slider-item-inner {
+#press .slider-item .slider-item-inner {
   padding: 0.5rem;
   background: white;
   border-radius: 0.25rem;
-  min-height: 300px;
+  height: 350px;
+  overflow-y: auto;
 }
 /*# sourceMappingURL=styles.css.map */

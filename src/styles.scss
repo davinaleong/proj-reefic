@@ -147,17 +147,22 @@ h1, h2, h3, h4, h5, h6, button,
     @extend .text-dark-purple;
     margin-bottom: 3rem;
   }
-}
 
-.slider-item {
-  padding: 1px;
-  background: linear-gradient(white, #ccc);
-  border-radius: $border-radius;
+  #press-carousel {
+    margin-bottom: 3rem;
+  }
 
-  .slider-item-inner {
-    padding: 0.5rem;
-    background: white;
+  .slider-item {
+    padding: 1px;
+    background: linear-gradient(white, #ccc);
     border-radius: $border-radius;
-    min-height: 300px;
+  
+    .slider-item-inner {
+      padding: 0.5rem;
+      background: white;
+      border-radius: $border-radius;
+      height: 350px;
+      overflow-y: auto;
+    }
   }
 }
