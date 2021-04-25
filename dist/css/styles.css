@@ -10912,8 +10912,7 @@ h1, h2, h3, h4, h5, h6, button,
 .countdown {
   font-weight: 100;
   margin-bottom: 3rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  text-align: center;
 }
 
 .countdown .date {
@@ -10921,7 +10920,29 @@ h1, h2, h3, h4, h5, h6, button,
 }
 
 .countdown .label {
+  text-transform: uppercase;
   font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .countdown {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .countdown {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .countdown {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
 }
 
 #reefic {
