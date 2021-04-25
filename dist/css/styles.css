@@ -11184,6 +11184,12 @@ h1, h2, h3, h4, h5, h6, button,
   background: #9BC54F;
 }
 
+#cast {
+  background-image: url("../images/bg-cast.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
 #cast h3, #cast h4 {
   margin-bottom: 2rem;
 }
