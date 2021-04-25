@@ -438,10 +438,18 @@ footer {
   position: fixed;
   top: 30vh;
   right: 0;
+  z-index: 2;
 }
 
 .vector-left {
   position: absolute;
   top: 1500px;
+  z-index: 1;
+}
+
+.vector-right {
+  position: absolute;
+  top: 2300px;
+  right: 0;
   z-index: 1;
 }
