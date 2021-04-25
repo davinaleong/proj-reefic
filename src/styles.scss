@@ -410,3 +410,24 @@ h1, h2, h3, h4, h5, h6, button,
     margin-right: 8rem;
   }
 }
+
+footer {
+  padding-top: 1rem;
+
+  a {
+    font-size: 0.8rem;
+    font-family: Montserrat, Verdana, sans-serif;
+    @extend .text-gray;
+
+    &:hover, &:active {
+      @extend .text-gray;
+    }
+  }
+
+  .copyright-text {
+    font-size: 0.8rem;
+    font-family: Montserrat, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #ccc;
+  }
+}

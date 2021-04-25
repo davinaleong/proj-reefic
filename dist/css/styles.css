@@ -10874,7 +10874,7 @@ body {
   color: white;
 }
 
-.text-gray {
+.text-gray, footer a, footer a:hover, footer a:active {
   color: #666;
 }
 
@@ -11238,5 +11238,21 @@ h1, h2, h3, h4, h5, h6, button,
     margin-left: 8rem;
     margin-right: 8rem;
   }
+}
+
+footer {
+  padding-top: 1rem;
+}
+
+footer a {
+  font-size: 0.8rem;
+  font-family: Montserrat, Verdana, sans-serif;
+}
+
+footer .copyright-text {
+  font-size: 0.8rem;
+  font-family: Montserrat, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #ccc;
 }
 /*# sourceMappingURL=styles.css.map */
